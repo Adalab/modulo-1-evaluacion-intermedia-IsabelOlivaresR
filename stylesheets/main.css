@@ -39,7 +39,7 @@
 .menu li {
   font-family: var(--primary-font);
   font-size: 16px;
-  font-weight: normal;
+  font-weight: none;
   padding: 10px;
 }
 .logo {
@@ -59,52 +59,21 @@
   color: var(--light-color);
   font-size: 30px;
   font-family: var(--primary-font);
+  font-weight: bold;
   text-align: center;
   display: block;
 }
 .claim {
   margin-top: -200px;
 }
-
-/*.header {
-  position: fixed;
-  background-color: var(--light-color);
-  width: 100%;
+@media all and (min-width: 768px) {
+    .header .wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px, 0;
+    }
+    .main span {
+        font-size: 40px;
 }
-/*.header .wrapper {
-  display: flex;
-  justify-content: center;
-}
-.logo {
-  width: 155px;
-  margin-top: 10px;
-  /*position: absolute;
-  /*transform: translate(50%, 0);
-}
-.logo img {
-  width: 100%;
-}
-.menu {
-    display: flex;
-    justify-content: center;
-
-}
-.menu li {
- /* display: inline-block;
-
-  /*margin-top: 90px;
-  font-family: var(--primary-font);
-  font-size: 16px;
-}
-
-}
-.main {
-  background-color: var(--primary-color);
-  width: 100%;
-  height: 100vh;
- 
-}
-.main p {
-  color: var(--light-color);
-  font-size: 30px;
-}*/
