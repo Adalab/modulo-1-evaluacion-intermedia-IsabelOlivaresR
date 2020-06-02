@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+}
+
+:root {
+  --primary-color: #3cdbc0;
+  --secondary-color: #4a4a4a;
+  --light-color: #ffffff;
+  --primary-font: "Rubik", sans-serif;
+}
+
+/*HEADER*/
+
+.header {
+}
+.logo {
+  width: 155px;
+}
+.logo img {
+  width: 100%;
+}
+.menu {
+  display: flex;
+}
