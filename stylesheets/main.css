@@ -4,7 +4,6 @@
   list-style-type: none;
   color: inherit;
   margin: 0;
-  /*border: 1px solid red;*/
 }
 
 :root {
@@ -23,6 +22,9 @@
 
 /*HEADER*/
 .header {
+  width: 100%;
+  position: fixed;
+  background-color: var(--light-color);
 }
 .header .wrapper {
   display: flex;
@@ -63,17 +65,16 @@
   text-align: center;
   display: block;
 }
-.claim {
-  margin-top: -200px;
-}
+
 @media all and (min-width: 768px) {
-    .header .wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px, 0;
-    }
-    .main span {
-        font-size: 40px;
+  .header .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px, 0;
+  }
+  .main span {
+    font-size: 40px;
+  }
 }
